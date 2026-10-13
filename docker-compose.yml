@@ -5,8 +5,8 @@ services:
     container_name: uw_postgres
     restart: unless-stopped
     environment:
-      POSTGRES_DB: webinar_db
-      POSTGRES_USER: webinar_user
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data

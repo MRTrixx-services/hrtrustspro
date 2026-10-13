@@ -37,8 +37,8 @@ ALLOWED_HOSTS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://hrtrusts.com",
-    "https://www.hrtrusts.com",
+    "https://hrtrustspro.com",
+    "https://www.hrtrustspro.com",
 ]
 
 
