@@ -331,12 +331,12 @@ else:
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SECURE = True
     SESSION_COOKIE_SAMESITE = "Lax"
-    SESSION_COOKIE_DOMAIN = ".hrtrusts.com"
+    SESSION_COOKIE_DOMAIN = None
 
     CSRF_COOKIE_SECURE = True
     CSRF_COOKIE_HTTPONLY = False
     CSRF_COOKIE_SAMESITE = "Lax"
-    CSRF_COOKIE_DOMAIN = ".hrtrusts.com"
+    CSRF_COOKIE_DOMAIN = None
 
     # HTTPS is enforced by Nginx/Cloudflare.
     # Keep Django redirect disabled to avoid proxy redirect loops.
